@@ -1,0 +1,43 @@
+no.1 ///////////
+var rows1;
+var counterRows1;
+
+rows1 = 5;
+counterRows1 = 0;
+
+while (counterRows1<rows1) {
+  console.log('*');
+  counterRows1++;
+}
+
+no.2 ////////////
+var rows2 = 5;
+
+var i=0;
+while (i<rows2) {
+  var asteriks = '*';
+  var x = 1;
+  while (x<rows2) {
+    asteriks = asteriks + '*';
+    x++;
+  }
+  console.log(asteriks);
+  i++;
+}
+
+no.3 //////
+var rows3 = 5;
+
+var initial = 1;
+var i = 0;
+
+while (i<rows3) {
+  var pyramid = '*';
+  var j=0;
+  while (j<i) {
+    pyramid = pyramid +'*';
+    j++;
+  }
+  console.log(pyramid);
+  i++;
+}

@@ -1,0 +1,55 @@
+no.1  Hukum newton2
+-aloritma
+	-mulai
+	-tentukan nilai a
+	-tentukan nilai m
+	-hitung nilai m dikalikan a
+	-hasil perhitungan m dikalikan a
+	-selesai
+
+-pseudocode
+    set sl dengan nilai berapapun
+    set m = 600
+    set a = 2
+
+    hitung = m dikalikan a
+    set sl berisi nilai dari hasil hitung 
+
+-Sintax
+function sl(m, a) {
+  return m*a
+}
+console.log(sl (60,2))
+
+
+no.2 tahun kabisat
+-pseudocode
+    set Tahun dengan nilai berapapun
+        set tahun mod 4 sama dengan 0 dan
+        jika tahun mod 100 tidak sama dengan 0 
+            atau jika set tahun mod 100 sama dengan 0 dan
+            jika tahun mod 400 sama dengan 0
+    tampil tahun adalah kabisat
+    selain itu
+    tampil tahun adalah bukan kabisat
+
+no.3 
+    store laundry dengan 0
+    while laudry < 20
+    tambah laudry dengan 1
+
+    tampil hasil laundry
+
+
+no.4
+    store siswa dengan 0 
+    while siswa < 40 
+    tambah siswa dengan 1 
+    tampil siswa
+
+        STORE "kuku pendek" with "siswa mod 2 equal to 0"
+        STORE "kuku panjang" with "siswa mod 2 not equal to 0"
+        IF "siswa" mod 2 equal to 0
+        DISPLAY "mendapat pujian dari guru"
+        ELSE
+        DISPLAY "mendapat hukuam dari guru"
