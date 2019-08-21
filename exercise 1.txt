@@ -4,16 +4,14 @@ no.1  Hukum newton2
 	-tentukan nilai a
 	-tentukan nilai m
 	-hitung nilai m dikalikan a
-	-hasil perhitungan m dikalikan a
+	-tampilkan hasil perhitungan m dikalikan a
 	-selesai
 
 -pseudocode
-    set sl dengan nilai berapapun
-    set m = 600
-    set a = 2
-
-    hitung = m dikalikan a
-    set sl berisi nilai dari hasil hitung 
+	DEFINE mass equals 600 kg
+	DEFINE accelaration equals 2m/s^2
+	CALCULATE mass times accelaration 
+	GET Resultant force equals 1200 N
 
 -Sintax
 function sl(m, a) {
@@ -23,30 +21,43 @@ console.log(sl (60,2))
 
 
 no.2 tahun kabisat
+-algoritma
+	-Masukkan (tahun)
+	-Jika sisa pembagian (tahun dibagi 4) != (tidak sama dengan) 0, maka cetak (“Tahun ” ,tahun, “bukan tahun kabisat”),Sebaliknya ;
+	-Jika sisa pembagian (tahun dibagi 100) = (sama dengan) 0 dan sisa pembagian (tahun dibagi 400) != (tidak sama dengan) 0, maka cetak (“Tahun” ,tahun, “bukan tahun kabisat), sebaliknya;
+	-Jika tidak memenuhi semua kondisi di atas, cetak(“Tahun” ,tahun, “adalah tahun kabisat”)
+	-selesai
 -pseudocode
-    set Tahun dengan nilai berapapun
-        set tahun mod 4 sama dengan 0 dan
-        jika tahun mod 100 tidak sama dengan 0 
-            atau jika set tahun mod 100 sama dengan 0 dan
-            jika tahun mod 400 sama dengan 0
-    tampil tahun adalah kabisat
-    selain itu
-    tampil tahun adalah bukan kabisat
+     	INPUT year
+	IF year MOD 4 equals zero then
+	IF year MOD 100 equals not zero OR year MOD 100 equals zero AND year MOD 400 equals zero
+	DEFINE year as kabisat
 
 no.3 
-    store laundry dengan 0
-    while laudry < 20
-    tambah laudry dengan 1
+-algoritma
+	-mulai
+   	-masukan laundry dengan 0
+    	-untuk baju < 20
+    	-tambah laudry dengan 1
+    	-tampil hasil laundry
 
-    tampil hasil laundry
+-pseudocode
+	DEFINE clothes equals 0
+	FOR clothes less than 20 
+	INPUT 1 clothes
+	NEXT
+	EXECUTE Washing Machine
 
 
 no.4
-    store siswa dengan 0 
-    while siswa < 40 
-    tambah siswa dengan 1 
-    tampil siswa
-
+-algoritma
+	-mulai
+	-Guru mengecek kuku siswa
+	-jika kuku siswa panjang
+	-guru akan memberikan hukuman
+	-atau sebaliknya jika kuku siswa tidak panjang
+	-Guru memuji siswa
+-pseudocode	
         STORE "kuku pendek" with "siswa mod 2 equal to 0"
         STORE "kuku panjang" with "siswa mod 2 not equal to 0"
         IF "siswa" mod 2 equal to 0
